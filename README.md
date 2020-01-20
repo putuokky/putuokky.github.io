@@ -2,4 +2,4 @@
 Website for putuokky
 
 # demo
-putuokky.github.io
+<a href="putuokky.github.io" target="_blank">putuokky.github.io</a>
