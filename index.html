@@ -3,12 +3,53 @@
 
 <head>
   <meta charset="UTF-8">
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!--Import materialize.css-->
+  <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+
+  <!--Let browser know website is optimized for mobile-->
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>asd</title>
+
+  <title>Document</title>
 </head>
 
 <body>
+  <div class="navbar-fixed">
+    <nav class="brown darken-4">
+      <div class="container">
+        <div class="nav-wrapper">
+          <a href="#home" class="brand-logo">My Resume</a>
+          <a href="#" data-target="mobile-nav" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+          <ul class="right hide-on-med-and-down">
+            <li><a href="#about">Tentang Kami</a></li>
+            <li><a href="#layanan">Layanan</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#theme">Tema</a></li>
+            <li><a href="#contact">Kontak</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
 
+  <!-- sidenav -->
+  <ul class="sidenav" id="mobile-nav">
+    <li><a href="#about">Tentang Kami</a></li>
+    <li><a href="#layanan">Layanan</a></li>
+    <li><a href="#portfolio">Portfolio</a></li>
+    <li><a href="#theme">Tema</a></li>
+    <li><a href="#contact">Kontak</a></li>
+  </ul>
+
+
+
+  <!--JavaScript at end of body for optimized loading-->
+  <script type="text/javascript" src="js/materialize.min.js"></script>
+  <script>
+    const sidenav = document.querySelectorAll('.sidenav');
+    M.Sidenav.init(sidenav);
+  </script>
 </body>
 
 </html>
