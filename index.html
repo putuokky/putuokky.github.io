@@ -1,270 +1,745 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <!--Import Google Icon Font-->
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <!--Import materialize.css-->
-  <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="It's Show Time">
+	<meta name="author" content="Okky Maheswara">
 
-  <!-- my CSS -->
-  <link rel="stylesheet" href="css/style.css">
+	<title>My Resume – It's Show Time</title>
 
-  <!-- Font Awesome -->
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css">
+  <!-- Web Fonts -->
+  <link href='http://fonts.googleapis.com/css?family=Roboto:400,300,500,700' rel='stylesheet' type='text/css'>
+	<!-- Bootstrap core CSS -->
+	<link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
+	<!-- Font Awesome CSS -->
+	<link href="assets/css/font-awesome.min.css" rel="stylesheet" media="screen">
+	<!-- Animate css -->
+  <link href="assets/css/animate.css" rel="stylesheet">
+  <!-- Magnific css -->
+	<link href="assets/css/magnific-popup.css" rel="stylesheet">
+	<!-- Custom styles CSS -->
+	<link href="assets/css/style.css" rel="stylesheet" media="screen">
+  <!-- Responsive CSS -->
+  <link href="assets/css/responsive.css" rel="stylesheet">
 
-  <!--Let browser know website is optimized for mobile-->
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+  <![endif]-->
 
-  <!-- Favicon -->
-  <link rel="icon" href="img/profile1.png" type="image/png" sizes="16x16">
+  <link rel="shortcut icon" href="assets/images/ico/favicon.png">
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/images/ico/apple-touch-icon-144-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/images/ico/apple-touch-icon-114-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/images/ico/apple-touch-icon-72-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" href="assets/images/ico/apple-touch-icon-57-precomposed.png">
 
-  <title>Resume Okky Maheswara</title>
 </head>
 
-<body id="home" class="scrollspy">
-  <div class="navbar-fixed">
-    <nav class="brown darken-4">
+<body>
+	<!-- Preloader -->
+	<div id="tt-preloader">
+		<div id="pre-status">
+			<div class="preload-placeholder"></div>
+		</div>
+	</div>
+
+	<!-- Home Section -->
+	<section id="home" class="tt-fullHeight" data-stellar-vertical-offset="50" data-stellar-background-ratio="0.2">
+		<div class="intro">
+			<div class="intro-sub">I am</div>
+			<h1>Okky <span>Maheswara</span></h1>
+			<!-- <p>I am a fully professional freelance creative User Interface Designer &amp; Developer<br> Involving with latest web designing and technologies is a great <br> feel free to contact creative.</p> -->
+
+      <div class="social-icons">
+        <ul class="list-inline">
+          <li><a href="https://www.facebook.com/okkymahes" target="_blank"><i class="fa fa-facebook"></i></a></li>
+          <li><a href="https://www.instagram.com/okkymahes/" target="_blank"><i class="fa fa-instagram"></i></a></li>
+          <li><a href="https://www.youtube.com/Okky%20Maheswara" target="_blank"><i class="fa fa-youtube"></i></a></li>
+          <li><a href="https://twitter.com/putuokky" target="_blank"><i class="fa fa-twitter"></i></a></li>
+          <li><a href="https://github.com/putuokky" target="_blank"><i class="fa fa-github"></i></a></li>
+          <li><a href="https://www.linkedin.com/in/okky-maheswara-527719b5" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+          <li><a href="https://www.mahesora.id/" target="_blank"><i class="fa fa-globe"></i></a></li>
+        </ul>
+      </div> <!-- /.social-icons -->
+		</div>
+
+		<div class="mouse-icon">
+			<div class="wheel"></div>
+		</div>
+	</section><!-- End Home Section -->
+
+
+
+
+	<!-- Navigation -->
+	<header class="header">
+		<nav class="navbar navbar-custom" role="navigation">
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#custom-collapse">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="index.html"><img src="assets/images/logo.png" alt=""></a>
+				</div>
+
+				<div class="collapse navbar-collapse" id="custom-collapse">
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="#home">Home</a></li>
+						<li><a href="#about">About</a></li>
+						<li><a href="#resume">Resume</a></li>
+						<li><a href="#skills">Skills</a></li>
+						<li><a href="#works">Works</a></li>
+            <li><a href="#contact">Contact</a></li>
+					</ul>
+				</div>
+			</div><!-- .container -->
+		</nav>
+	</header><!-- End Navigation -->
+
+
+    <!-- About Section -->
+    <section id="about" class="about-section section-padding">
       <div class="container">
-        <div class="nav-wrapper">
-          <a href="#home" class="brand-logo"
-            style="text-transform: uppercase; font-weight: bold; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">Resume</a>
-          <a href=" #" data-target="mobile-nav" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-          <ul class="right hide-on-med-and-down" style="text-transform: uppercase;">
-            <li><a href="#about">About</a></li>
-            <li><a href="#experience">Experience</a></li>
-            <li><a href="#education">Education</a></li>
-            <li><a href="#qualified">Qualified</a></li>
-          </ul>
+        <h2 class="section-title wow fadeInUp">About Me</h2>
+
+        <div class="row">
+
+          <div class="col-md-4 col-md-push-8">
+            <div class="biography">
+              <div class="myphoto">
+                <img src="assets/images/myphoto.jpg" alt="">
+              </div>
+              <ul>
+                <li><strong>Name:</strong> Okky Maheswara</li>
+                <li><strong>Date of birth:</strong> 18 January 1995</li>
+                <li><strong>Address:</strong> Sesetan Street 122, Denpasar, Bali, Indonesia</li>
+                <li><strong>Nationality:</strong> Indonesia</li>
+                <li><strong>Phone:</strong> (62) 857-3820-9427</li>
+                <li><strong>Email:</strong> okkymahes@gmail.com</li>
+              </ul>
+            </div>
+          </div> <!-- col-md-4 -->
+
+          <div class="col-md-8 col-md-pull-4">
+            <div class="short-info wow fadeInUp">
+              <h3>Objective</h3>
+              <p>An opportunity to work and upgrade oneself, as well as being involved in an organization that believes in gaining a competitive edge and giving back to the community. I'm presently expanding my solid experience in UI / UX design. I focus on using my interpersonal skills to build good user experience and create a strong interest in my employers. I hope to develop skills in motion design and my knowledge of the Web, and become an honest asset to the business. As an individual, I'm self-confident you’ll find me creative, funny and naturally passionate. I’m a forward thinker, which others may find inspiring when working as a team.</p>
+            </div>
+
+            <div class="short-info wow fadeInUp">
+              <h3>What I Do ?</h3>
+              <p>I have been working as a web interface designer since. I have a love of clean, elegant styling, and I have lots of experience in the production of CSS3 and HTML5 for modern websites. I loving creating awesome as per my clients’ need. I think user experience when I try to craft something for my clients. Making a design awesome.</p>
+
+              <ul class="list-check">
+                <li>User Experience Design</li>
+                <li>Interface Design</li>
+                <li>Product Design</li>
+                <li>Branding Design</li>
+                <li>Digital Painting</li>
+                <li>Video Editing</li>
+              </ul>
+            </div>
+
+            <div class="my-signature">
+              <img src="assets/images/sign.png" alt="">
+            </div>
+
+            <div class="download-button">
+              <a class="btn btn-info btn-lg" href="#contact"><i class="fa fa-paper-plane"></i>Send me message</a>
+              <a class="btn btn-primary btn-lg" href="#"><i class="fa fa-download"></i>download my cv</a>
+            </div>
+          </div>
+
+
+        </div> <!-- /.row -->
+      </div> <!-- /.container -->
+    </section><!-- End About Section -->
+
+
+    <!-- Video Section -->
+    <section id="video" class="video-section">
+      <div class="tf-bg-overlay">
+        <div class="container">
+          <div class="control">
+            <div class="video-intro text-center">
+              <button type="button" class="play-trigger" data-toggle="modal" data-target="#tour-video"><i class="fa fa-play"></i></button>
+              <h2>Video Introducing</h2>
+            </div>
+              
+            <!-- Video Modal -->
+            <div class="modal modal-video" id="tour-video">
+              <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title">Video Tour</h4>
+                  </div>
+                  <div class="modal-body">
+                    <div class="video-container">
+                      <iframe src="http://player.vimeo.com/video/118119037" name="vimeoplayer" id="nofocusvideo" width="500" height="281"></iframe>
+                    </div><!--/.video-container-->
+                  </div>
+                  <!--/.modal-body-->
+                </div>
+                <!--/.modal-content-->
+              </div>
+              <!--/.modal-dialog-->
+            </div>
+            <!--/.modal-->                    
+          </div>
+          <!--/.control-->
         </div>
+        <!--/.container-->
       </div>
-    </nav>
-  </div>
+      <!--/.overlay-->
+    </section>
+    <!-- /.Video Section -->
 
-  <!-- sidenav -->
-  <ul class="sidenav" id="mobile-nav">
-    <li><a href="#about">About</a></li>
-    <li><a href="#experience">Experience</a></li>
-    <li><a href="#education">Education</a></li>
-    <li><a href="#qualified">Qualified</a></li>
-  </ul>
 
-  <div class="slider">
-    <ul class="slides">
-      <li>
-        <img src="img/thumbs/3.png"> <!-- random image -->
-        <div class="caption center-align">
-          <h3>Hi, I Am Okky Maheswara</h3>
-          <h5 class="light grey-text text-lighten-3">It's Show Time</h5>
-        </div>
-      </li>
-      <li>
-        <img src="img/thumbs/5.png"> <!-- random image -->
-        <div class="caption left-align">
-          <h3 class="grey-text text-darken-3">Hi, I Am Okky Maheswara</h3>
-          <h5 class="light grey-text text-darken-3">It's Show Time</h5>
-        </div>
-      </li>
-      <li>
-        <img src="img/thumbs/4.png"> <!-- random image -->
-        <div class="caption right-align">
-          <h3 class="orange-text text-darken-1">Hi, I Am Okky Maheswara</h3>
-          <h5 class="light orange-text text-darken-1">It's Show Time</h5>
-        </div>
-      </li>
-    </ul>
-  </div>
+    <!-- Resume Section -->
+    <section id="resume" class="resume-section section-padding">
+        <div class="container">
+            <h2 class="section-title wow fadeInUp">Resume</h2>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="resume-title">
+                        <h3>Education</h3>
+                    </div>
+                    <div class="resume">
+                        <ul class="timeline">
+                            <li>
+                                <div class="posted-date">
+                                    <span class="month">2007-2011</span>
+                                </div><!-- /posted-date -->
 
-  <section id="about" class="about scrollspy">
-    <div class="container">
-      <div class="row">
-        <h3 class="center light grey-text text-darken-3">About Me</h3>
-        <div class="col m6 light">
+                                <div class="timeline-panel wow fadeInUp">
+                                    <div class="timeline-content">
+                                        <div class="timeline-heading">
+                                            <h3>Bachelor degree certificate</h3>
+                                            <span>BA(Hons) in UI Engineering, Arts University, Pabna, USA</span>
+                                        </div><!-- /timeline-heading -->
+
+                                        <div class="timeline-body">
+                                            <p>I have completed UI Engineering degree from ABC University, Boston, USA at feel the charm of existence in this spot, which was created for the.</p>
+                                        </div><!-- /timeline-body -->
+                                    </div> <!-- /timeline-content -->
+                                </div><!-- /timeline-panel -->
+                            </li>
+
+                            <li class="timeline-inverted">
+                                <div class="posted-date">
+                                    <span class="month">2004-2006</span>
+                                </div><!-- /posted-date -->
+
+                                <div class="timeline-panel wow fadeInUp">
+                                    <div class="timeline-content">
+                                        <div class="timeline-heading">
+                                            <h3>Higher Secondary certificate</h3>
+                                            <span>Typography Arts, FA College, New York, USA</span>
+                                        </div><!-- /timeline-heading -->
+
+                                        <div class="timeline-body">
+                                            <p>From this college of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend.</p>
+                                        </div><!-- /timeline-body -->
+                                    </div> <!-- /timeline-content -->
+                                </div> <!-- /timeline-panel -->
+                            </li>
+
+                            <li>
+                                <div class="posted-date">
+                                  <span class="month">2000-2003</span>
+                                </div><!-- /posted-date -->
+
+                                <div class="timeline-panel wow fadeInUp">
+                                    <div class="timeline-content">
+                                        <div class="timeline-heading">
+                                            <h3>Secondary school certificate</h3>
+                                            <span>Creative Arts, Julius Jr. school, USA</span>
+                                        </div><!-- /timeline-heading -->
+
+                                        <div class="timeline-body">
+                                            <p>I was awesome at arts, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy.</p>
+                                        </div><!-- /timeline-body -->
+                                    </div> <!-- /timeline-content -->
+                                </div><!-- /timeline-panel -->
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div><!-- /row -->
+
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="resume-title">
+                        <h3>Experience</h3>
+                    </div>
+                    <div class="resume">
+                        <ul class="timeline">
+                            <li class="timeline-inverted">
+                                <div class="posted-date">
+                                  <span class="month">2011-2013</span>
+                                </div><!-- /posted-date -->
+
+                                <div class="timeline-panel wow fadeInUp">
+                                    <div class="timeline-content">
+                                        <div class="timeline-heading">
+                                            <h3>Junior ui designer</h3>
+                                            <span>XYZ Design Home, One Street, Boston</span>
+                                        </div><!-- /timeline-heading -->
+
+                                        <div class="timeline-body">
+                                            <p>I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend.</p>
+                                        </div><!-- /timeline-body -->
+                                    </div> <!-- /timeline-content -->
+                                </div> <!-- /timeline-panel -->
+                            </li>
+
+                            <li>
+                                <div class="posted-date">
+                                  <span class="month">2013-2015</span>
+                                </div><!-- /posted-date -->
+
+                                <div class="timeline-panel wow fadeInUp">
+                                    <div class="timeline-content">
+                                        <div class="timeline-heading">
+                                            <h3>Lead UX Consultant</h3>
+                                            <span>Lucky8 Designing Firm, California</span>
+                                        </div><!-- /timeline-heading -->
+
+                                        <div class="timeline-body">
+                                            <p>Completely provide access to seamless manufactured products before functionalized synergy. Progressively redefine competitive value through.</p>
+                                        </div><!-- /timeline-body -->
+                                    </div> <!-- /timeline-content -->
+                                </div><!-- /timeline-panel -->
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div><!-- /row -->
+        </div><!-- /.container -->
+    </section><!-- End Resume Section -->
+
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section section-padding">
+      <div class="container">
+        <h2 class="section-title wow fadeInUp">Skills</h2>
+
+        <div class="row">
+          <div class="col-md-6">
+            <div class="skill-progress">
+              <div class="skill-title"><h3>UX Design</h3></div> 
+              <div class="progress">
+                <div class="progress-bar six-sec-ease-in-out" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" ><span>95%</span>
+                </div>
+              </div><!-- /.progress -->
+            </div><!-- /.skill-progress -->
+
+            <div class="skill-progress">
+              <div class="skill-title"><h3>Visual Design</h3></div> 
+              <div class="progress">
+                <div class="progress-bar six-sec-ease-in-out" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" ><span>80%</span>
+                </div>
+              </div><!-- /.progress -->
+            </div><!-- /.skill-progress -->
+            <div class="skill-progress">
+              <div class="skill-title"><h3>Business Design</h3></div>  
+              <div class="progress">
+                <div class="progress-bar six-sec-ease-in-out" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" ><span>75%</span>
+                </div>
+              </div><!-- /.progress -->
+            </div><!-- /.skill-progress -->
+          </div><!-- /.col-md-6 -->
+
+          <div class="col-md-6">
+            <div class="skill-progress">
+              <div class="skill-title"><h3>Branding Design</h3></div> 
+              <div class="progress">
+                <div class="progress-bar six-sec-ease-in-out" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" ><span>95%</span>
+                </div>
+              </div><!-- /.progress -->
+            </div><!-- /.skill-progress -->
+            <div class="skill-progress">
+              <div class="skill-title"><h3>Motion Graphic</h3></div> 
+              <div class="progress">
+                <div class="progress-bar six-sec-ease-in-out" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" ><span>80%</span>
+                </div>
+              </div><!-- /.progress -->
+            </div><!-- /.skill-progress -->
+            <div class="skill-progress">
+              <div class="skill-title"><h3>Flyers Designing</h3></div>  
+              <div class="progress">
+                <div class="progress-bar six-sec-ease-in-out" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" ><span>75%</span>
+                </div>
+              </div><!-- /.progress -->
+            </div><!-- /.skill-progress -->
+          </div><!-- /.col-md-6 -->
+        </div><!-- /.row -->
+
+        <div class="skill-chart text-center">
+          <h3>More skills</h3>
+        </div>
+          
+        <div class="row more-skill text-center">
+          <div class="col-xs-12 col-sm-4 col-md-2">
+              <div class="chart" data-percent="91" data-color="e74c3c">
+                    <span class="percent"></span>
+                    <div class="chart-text">
+                      <span>leadership</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-4 col-md-2">
+              <div class="chart" data-percent="23" data-color="2ecc71">
+                    <span class="percent"></span>
+                    <div class="chart-text">
+                      <span>Creativity</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-4 col-md-2">
+              <div class="chart" data-percent="68" data-color="3498db">
+                    <span class="percent"></span>
+                    <div class="chart-text">
+                      <span>Management</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-4 col-md-2">
+              <div class="chart" data-percent="68" data-color="3498db">
+                    <span class="percent"></span>
+                    <div class="chart-text">
+                      <span>Branding</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-4 col-md-2">
+              <div class="chart" data-percent="68" data-color="3498db">
+                    <span class="percent"></span>
+                    <div class="chart-text">
+                      <span>Marketing</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-4 col-md-2">
+              <div class="chart" data-percent="68" data-color="3498db">
+                    <span class="percent"></span>
+                    <div class="chart-text">
+                      <span>Motivation</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+      </div><!-- /.container -->
+    </section><!-- End Skills Section -->
+
+
+    <!-- Works Section -->
+    <section id="works" class="works-section section-padding">
+      <div class="container">
+        <h2 class="section-title wow fadeInUp">Works</h2>
+
+        <ul class="list-inline" id="filter">
+            <li><a class="active" data-group="all">All</a></li>
+            <li><a data-group="design">Design</a></li>
+            <li><a data-group="web">Web</a></li>
+            <li><a data-group="interface">Interface</a></li>
+            <li><a data-group="identety">Identity</a></li>
+        </ul>
+
+        <div class="row">
+          <div id="grid">
+            <div class="portfolio-item col-xs-12 col-sm-4 col-md-3" data-groups='["all", "identety", "interface"]'>
+              <div class="portfolio-bg">
+                <div class="portfolio">
+                  <div class="tt-overlay"></div>
+                  <div class="links">
+                    <a class="image-link" href="assets/images/works/portfolio-1.jpg"><i class="fa fa-search-plus"></i></a>
+                    <a href="#"><i class="fa fa-link"></i></a>                          
+                  </div><!-- /.links -->
+                  <img src="assets/images/works/portfolio-1.jpg" alt="image"> 
+                  <div class="portfolio-info">
+                    <h3>Portfolio Title</h3>
+                  </div><!-- /.portfolio-info -->
+                </div><!-- /.portfolio -->
+              </div><!-- /.portfolio-bg -->
+            </div><!-- /.portfolio-item -->
+
+
+            <div class="portfolio-item col-xs-12 col-sm-4 col-md-3" data-groups='["all", "identety", "web"]'>
+              <div class="portfolio-bg">
+                <div class="portfolio">
+                  <div class="tt-overlay"></div>
+                  <div class="links">
+                    <a class="image-link" href="assets/images/works/portfolio-2.jpg"><i class="fa fa-search-plus"></i></a>
+                    <a href="#"><i class="fa fa-link"></i></a>                          
+                  </div><!-- /.links -->
+                  <img src="assets/images/works/portfolio-2.jpg" alt="image"> 
+                  <div class="portfolio-info">
+                    <h3>Portfolio Title</h3>
+                  </div><!-- /.portfolio-info -->
+                </div><!-- /.portfolio -->
+              </div><!-- /.portfolio-bg -->
+            </div><!-- /.portfolio-item -->
+            <div class="portfolio-item col-xs-12 col-sm-4 col-md-3" data-groups='["all", "interface"]'>
+              <div class="portfolio-bg">
+                <div class="portfolio">
+                  <div class="tt-overlay"></div>
+                  <div class="links">
+                    <a class="image-link" href="assets/images/works/portfolio-3.jpg"><i class="fa fa-search-plus"></i></a>
+                    <a href="#"><i class="fa fa-link"></i></a>                          
+                  </div><!-- /.links -->
+                  <img src="assets/images/works/portfolio-3.jpg" alt="image"> 
+                  <div class="portfolio-info">
+                    <h3>Portfolio Title</h3>
+                  </div><!-- /.portfolio-info -->
+                </div><!-- /.portfolio -->
+              </div><!-- /.portfolio-bg -->
+            </div><!-- /.portfolio-item -->
+            <div class="portfolio-item col-xs-12 col-sm-4 col-md-3" data-groups='["all", "identety", "design"]'>
+              <div class="portfolio-bg">
+                <div class="portfolio">
+                  <div class="tt-overlay"></div>
+                  <div class="links">
+                    <a class="image-link" href="assets/images/works/portfolio-4.jpg"><i class="fa fa-search-plus"></i></a>
+                    <a href="#"><i class="fa fa-link"></i></a>                          
+                  </div><!-- /.links -->
+                  <img src="assets/images/works/portfolio-4.jpg" alt="image"> 
+                  <div class="portfolio-info">
+                    <h3>Portfolio Title</h3>
+                  </div><!-- /.portfolio-info -->
+                </div><!-- /.portfolio -->
+              </div><!-- /.portfolio-bg -->
+            </div><!-- /.portfolio-item -->
+            <div class="portfolio-item col-xs-12 col-sm-4 col-md-3" data-groups='["all", "identety", "design"]'>
+              <div class="portfolio-bg">
+                <div class="portfolio">
+                  <div class="tt-overlay"></div>
+                  <div class="links">
+                    <a class="image-link" href="assets/images/works/portfolio-5.jpg"><i class="fa fa-search-plus"></i></a>
+                    <a href="#"><i class="fa fa-link"></i></a>                          
+                  </div><!-- /.links -->
+                  <img src="assets/images/works/portfolio-5.jpg" alt="image"> 
+                  <div class="portfolio-info">
+                    <h3>Portfolio Title</h3>
+                  </div><!-- /.portfolio-info -->
+                </div><!-- /.portfolio -->
+              </div><!-- /.portfolio-bg -->
+            </div><!-- /.portfolio-item -->
+            <div class="portfolio-item col-xs-12 col-sm-4 col-md-3" data-groups='["all", "identety", "design"]'>
+              <div class="portfolio-bg">
+                <div class="portfolio">
+                  <div class="tt-overlay"></div>
+                  <div class="links">
+                    <a class="image-link" href="assets/images/works/portfolio-6.jpg"><i class="fa fa-search-plus"></i></a>
+                    <a href="#"><i class="fa fa-link"></i></a>                          
+                  </div><!-- /.links -->
+                  <img src="assets/images/works/portfolio-6.jpg" alt="image"> 
+                  <div class="portfolio-info">
+                    <h3>Portfolio Title</h3>
+                  </div><!-- /.portfolio-info -->
+                </div><!-- /.portfolio -->
+              </div><!-- /.portfolio-bg -->
+            </div><!-- /.portfolio-item -->
+            <div class="portfolio-item col-xs-12 col-sm-4 col-md-3" data-groups='["all", "identety", "web"]'>
+              <div class="portfolio-bg">
+                <div class="portfolio">
+                  <div class="tt-overlay"></div>
+                  <div class="links">
+                    <a class="image-link" href="assets/images/works/portfolio-7.jpg"><i class="fa fa-search-plus"></i></a>
+                    <a href="#"><i class="fa fa-link"></i></a>                          
+                  </div><!-- /.links -->
+                  <img src="assets/images/works/portfolio-7.jpg" alt="image"> 
+                  <div class="portfolio-info">
+                    <h3>Portfolio Title</h3>
+                  </div><!-- /.portfolio-info -->
+                </div><!-- /.portfolio -->
+              </div><!-- /.portfolio-bg -->
+            </div><!-- /.portfolio-item -->
+            <div class="portfolio-item col-xs-12 col-sm-4 col-md-3" data-groups='["all", "design"]'>
+              <div class="portfolio-bg">
+                <div class="portfolio">
+                  <div class="tt-overlay"></div>
+                  <div class="links">
+                    <a class="image-link" href="assets/images/works/portfolio-8.jpg"><i class="fa fa-search-plus"></i></a>
+                    <a href="#"><i class="fa fa-link"></i></a>                          
+                  </div><!-- /.links -->
+                  <img src="assets/images/works/portfolio-8.jpg" alt="image"> 
+                  <div class="portfolio-info">
+                    <h3>Portfolio Title</h3>
+                  </div><!-- /.portfolio-info -->
+                </div><!-- /.portfolio -->
+              </div><!-- /.portfolio-bg -->
+            </div><!-- /.portfolio-item -->
+          </div><!-- /#grid -->
+        </div><!-- /.row -->
+      </div><!-- /.container -->
+    </section><!-- End Works Section -->
+
+
+    <!-- Facts Section -->
+    <section id="facts" class="facts-section text-center" data-stellar-vertical-offset="50" data-stellar-background-ratio="0.2">
+      <div class="tt-overlay-bg">
+        <div class="container">
           <div class="row">
-            <div class="col s12 m12">
-              <div class="card">
-                <div class="card-image">
-                  <img src="img/IMG-20170805-WA0008.jpg">
+            <div class="col-md-12">
+              <div class="count-wrap">
+                <div class="col-sm-3 col-xs-6">
+                  <i class="fa fa-flask"></i>
+                  <h3 class="timer">7</h3>
+                  <p>Years of Experience</p>
+                </div>
+                <div class="col-sm-3 col-xs-6"> 
+                  <i class="fa fa-thumbs-up"></i>
+                  <h3 class="timer">651</h3>                
+                  <p>Projects Done</p>
+                </div>
+                <div class="col-sm-3 col-xs-6">
+                  <i class="fa fa-users"></i>
+                  <h3 class="timer">251</h3> 
+                  <p>Happy Clients</p>
+                </div>
+                <div class="col-sm-3 col-xs-6">
+                  <i class="fa fa-trophy"></i>
+                  <h3 class="timer">5</h3> 
+                  <p>Awards Won</p>
+                </div>
+              </div><!-- /count-wrap -->
+            </div><!-- /.col-md-12 -->
+          </div><!-- /.row -->
+        </div><!-- /.container -->
+      </div>
+    </section> <!-- End Facts Section -->
+
+
+
+    <!-- Hire Section -->
+    <section class="hire-section text-center" data-stellar-vertical-offset="50" data-stellar-background-ratio="0.2">
+      <div class="hire-section-bg">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <h2>I'm available for freelance project</h2>
+              <a href="#" class="btn btn-default">Get Hired</a>
+            </div><!-- /.col-md-12 -->
+          </div><!-- /.row -->
+        </div><!-- /.container -->
+      </div><!-- /.hire-section-bg -->
+    </section><!-- End Hire Section -->
+
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section section-padding">
+      <div class="container">
+        <h2 class="section-title wow fadeInUp">Get in touch</h2>
+
+        <div class="row">
+          <div class="col-md-6">
+            <div class="contact-form">
+              <strong>Send me a message</strong>
+              <form name="contact-form" method="post" action="assets/php/sendemail.php">
+                <div class="form-group">
+                  <label for="InputName1">Name</label>
+                  <input type="text" name="name" class="form-control" id="InputName1" required="">
+                </div>
+                <div class="form-group">
+                  <label for="InputEmail1">Email</label>
+                  <input type="email" name="email" class="form-control" id="InputEmail1" required="">
+                </div>
+                <div class="form-group">
+                  <label for="InputSubject">Subject</label>
+                  <input type="text" name="subject" class="form-control" id="InputSubject">
+                </div>
+                <div class="form-group">
+                  <label for="InputTextarea">Message</label>
+                  <textarea name="message" class="form-control" id="InputTextarea" rows="5" required=""></textarea>
+                </div>
+
+                <button type="submit" name="submit" class="btn btn-primary">Send Message</button>
+              </form>
+            </div>
+          </div><!-- /.col-md-6 -->
+
+          <div class="col-md-6">
+            <div class="row center-xs">
+              <div class="col-sm-6">
+                <i class="fa fa-map-marker"></i>
+                <address>
+                  <strong>Address/Street</strong>
+                  Sesetan Street 122, Denpasar, Bali, Indonesia<br>
+                </address>
+              </div>
+
+              <div class="col-sm-6">
+                <i class="fa fa-mobile"></i>
+                <div class="contact-number">
+                  <strong>Phone Number</strong>
+                  (62) 857-3820-9427
                 </div>
               </div>
             </div>
+
+          <div class="row">
+            <div class="col-sm-12">
+              <div class="location-map">
+                <div id="mapCanvas" class="map-canvas"></div>
+              </div>
+            </div>
+          </div>
+
+          </div>
+        </div><!-- /.row -->
+      </div><!-- /.container -->
+    </section><!-- End Contact Section -->
+
+
+    
+
+
+
+
+	<!-- Footer Section -->
+    <footer class="footer-wrapper">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="copyright text-center">
+              <p>&copy; My Resume 2020. All rights reserved.</p>
+            </div>
           </div>
         </div>
-        <div class="col m6 light">
-          <table>
-            <thead>
-              <tr>
-                <th>Name</th>
-                <td>I Putu Okky Maheswara</td>
-              </tr>
-              <tr>
-                <th>Gender</th>
-                <td>Male</td>
-              </tr>
-              <tr>
-                <th>Religion</th>
-                <td>Hindu</td>
-              </tr>
-              <tr>
-                <th>Place / Date of birth</th>
-                <td>Denpasar, 18<sup>th</sup> January 1995</td>
-              </tr>
-              <tr>
-                <th>Nationality</th>
-                <td>Indonesian</td>
-              </tr>
-              <tr>
-                <th>Address</th>
-                <td>Jl. Raya Sesetan Gang Melon No. 122, Denpasar, Bali, Indonesia</td>
-              </tr>
-              <tr>
-                <th>Phone</th>
-                <td>+62 857-3820-9427</td>
-              </tr>
-              <tr>
-                <th>Email</th>
-                <td><a href="mailto:okkymahes@gmail.com" target="_blank" title="Email">okkymahes@gmail.com</a></td>
-              </tr>
-            </thead>
-          </table>
-        </div>
       </div>
-    </div>
-  </section>
+    </footer><!-- End Footer Section -->
 
-  <!-- parallax -->
-  <div id="parallax" class="parallax-container scrollspy brown darken-4">
-    <div class="container">
-      <div class="row">
-        <div class="col m4 s12">
-          <h4 class="white-text center">
-            <a href="#" target="_blank" class="waves-effect waves-light btn-large deep-orange accent-4">Download My
-              Resume</a>
-          </h4>
-        </div>
-        <div class="col m8 s12 center">
-          <h4 class="light white-text">
-            <a href="https://www.facebook.com/okkymahes" target="_blank" title="Facebook"
-              class="btn-floating btn-large waves-effect waves-light blue darken-4"><i
-                class="fab fa-facebook-f"></i></a>
-            <a href="https://www.instagram.com/okkymahes/" target="_blank" title="Instagram"
-              class="btn-floating btn-large waves-effect waves-light cyan darken-2"><i class="fab fa-instagram"></i></a>
-            <a href="https://www.youtube.com/Okky%20Maheswara" target="_blank" title="Youtube"
-              class="btn-floating btn-large waves-effect waves-light red accent-4"><i class="fab fa-youtube"></i></a>
-            <a href="https://twitter.com/putuokky" target="_blank" title="Twitter"
-              class="btn-floating btn-large waves-effect waves-light blue lighten-2"><i class="fab fa-twitter"></i></a>
-            <a href="https://github.com/putuokky" target="_blank" title="Github"
-              class="btn-floating btn-large waves-effect waves-light black"><i class="fab fa-github"></i></a>
-            <a href="https://www.linkedin.com/in/okky-maheswara-527719b5" target="_blank" title="Linkedin"
-              class="btn-floating btn-large waves-effect waves-light blue darken-3"><i
-                class="fab fa-linkedin-in"></i></a>
-            <a href="http://putuokky.com/" target="_blank" title="Website"
-              class="btn-floating btn-large waves-effect waves-light red"><i class="fas fa-globe"></i></a>
-          </h4>
-        </div>
-      </div>
-    </div>
-  </div>
 
-  <section id="experience" class="experience scrollspy grey lighten-3">
-    <div class="container">
-      <div class="row">
-        <h3 class="center light grey-text text-darken-3">Experience</h3>
-        <div class="col m6 light left">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. At provident, perspiciatis non architecto aperiam
-          eius, repellat pariatur in accusamus impedit quis, aspernatur nam eveniet alias quia sint accusantium nesciunt
-          unde!
-        </div>
-        <div class="col m6 light right">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia amet eum non deserunt aliquid natus,
-          possimus alias saepe necessitatibus enim placeat laudantium, quod porro dicta fugiat! Voluptas rem consequatur
-          atque?
-        </div>
-      </div>
-    </div>
-  </section>
+	<!-- Scroll-up -->
+	<div class="scroll-up">
+		<a href="#home"><i class="fa fa-angle-up"></i></a>
+	</div>
 
-  <section id="education" class="education scrollspy">
-    <div class="container">
-      <div class="row">
-        <h3 class="center light grey-text text-darken-3">Education</h3>
-        <div class="col m6 light left">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. At provident, perspiciatis non architecto aperiam
-          eius, repellat pariatur in accusamus impedit quis, aspernatur nam eveniet alias quia sint accusantium nesciunt
-          unde!
-        </div>
-        <div class="col m6 light right">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia amet eum non deserunt aliquid natus,
-          possimus alias saepe necessitatibus enim placeat laudantium, quod porro dicta fugiat! Voluptas rem consequatur
-          atque?
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section id="qualified" class="qualified scrollspy grey lighten-3">
-    <div class="container">
-      <div class="row">
-        <h3 class="center light grey-text text-darken-3">Qualified</h3>
-        <div class="col m6 light left">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. At provident, perspiciatis non architecto aperiam
-          eius, repellat pariatur in accusamus impedit quis, aspernatur nam eveniet alias quia sint accusantium nesciunt
-          unde!
-        </div>
-        <div class="col m6 light right">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia amet eum non deserunt aliquid natus,
-          possimus alias saepe necessitatibus enim placeat laudantium, quod porro dicta fugiat! Voluptas rem consequatur
-          atque?
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <footer class="page-footer brown darken-4">
-    <!-- <div class="container">
-      <div class="row">
-        <div class="col l6 s12">
-          <h5 class="white-text">Footer Content</h5>
-          <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
-        </div>
-        <div class="col l4 offset-l2 s12">
-          <h5 class="white-text">Links</h5>
-          <ul>
-            <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
-            <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
-            <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
-            <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
-          </ul>
-        </div>
-      </div>
-    </div> -->
-    <div class="footer-copyright">
-      <div class="container center">
-        © 2020 <a href="#home" class="grey-text text-lighten-4">Resume</a> -
-        Development by <a href="http://putuokky.com/" target="_blank" class="grey-text text-lighten-4">putuokky.com</a>
-      </div>
-    </div>
-  </footer>
-
-  <!--JavaScript at end of body for optimized loading-->
-  <script type="text/javascript" src="js/materialize.min.js"></script>
-  <script>
-    const sidenav = document.querySelectorAll('.sidenav');
-    M.Sidenav.init(sidenav);
-
-    const slider = document.querySelectorAll('.slider');
-    M.Slider.init(slider, {
-      indicators: false,
-      height: 560,
-      interval: 3000
-    });
-
-    const scroll = document.querySelectorAll('.scrollspy');
-    M.ScrollSpy.init(scroll, {
-      scrollOffset: 500
-    });
-  </script>
+	<!-- Javascript files -->
+	<script src="assets/js/jquery.js"></script>
+	<script src="assets/bootstrap/js/bootstrap.min.js"></script>
+  <script src="assets/js/jquery.stellar.min.js"></script>
+	<script src="assets/js/jquery.sticky.js"></script>
+  <script src="assets/js/smoothscroll.js"></script>
+	<script src="assets/js/wow.min.js"></script>
+  <script src="assets/js/jquery.countTo.js"></script>
+  <script src="assets/js/jquery.inview.min.js"></script> 
+  <script src="assets/js/jquery.easypiechart.js"></script>
+  <script src="assets/js/jquery.shuffle.min.js"></script>
+  <script src="assets/js/jquery.magnific-popup.min.js"></script>
+  <script src="http://a.vimeocdn.com/js/froogaloop2.min.js"></script>
+  <script src="assets/js/jquery.fitvids.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=false"></script>
+  <script src="assets/js/scripts.js"></script>
 </body>
-
 </html>
